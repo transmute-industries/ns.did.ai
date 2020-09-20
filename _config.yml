@@ -5,7 +5,7 @@ url: "https://ns.did.ai"
 
 defaults:
   - scope:
-      path: "did/**/*.pdf"
+      path: "did/**/*.*"
     values:
       sitemap: true
 
