@@ -1,5 +1,6 @@
 ---
 layout: respec
+title: Respec FTW
 ---
 
 <section id="abstract">
