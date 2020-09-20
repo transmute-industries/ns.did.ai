@@ -1,6 +1,21 @@
 ---
 layout: respec
 title: Respec FTW
+specStatus: CG-DRAFT
+shortName: lds-ed25519-2020
+repository: https://github.com/transmute-industries/ns.did.ai
+issueTracker: https://github.com/transmute-industries/ns.did.ai/issues
+bibliography: > 
+{
+  "RDF-DATASET-NORMALIZATION": {
+    "title": "RDF Dataset Normalization 1.0",
+    "href": "http://json-ld.github.io/normalization/spec/",
+    "authors": ["David Longley", "Manu Sporny"],
+    "status": "CGDRAFT",
+    "publisher": "JSON-LD Community Group"
+  }
+}
+
 ---
 
 <section id="abstract">
