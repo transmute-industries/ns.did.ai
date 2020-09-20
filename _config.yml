@@ -12,5 +12,3 @@ defaults:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
-theme: jekyll-theme-architect
