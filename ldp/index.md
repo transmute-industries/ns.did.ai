@@ -2,6 +2,8 @@
 
 #### Example:
 
+<p class="red43">ehllo asdfadsf</p>
+
 ```json
 {
   "id": "did:example:123#key-0",
