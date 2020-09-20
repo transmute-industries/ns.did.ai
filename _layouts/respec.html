@@ -12,10 +12,10 @@
     <script type="text/javascript" class="remove">
       var respecConfig = {
         // specification status (e.g. WD, LCWD, NOTE, etc.). If in doubt use ED.
-        specStatus: "CG-DRAFT",
+        specStatus: "{{ page.specStatus }}",
 
         // the specification's short name, as in http://www.w3.org/TR/short-name/
-        shortName: "lds-ed25519-2020",
+        shortName: "{{ page.shortName }}",
 
         // if you wish the publication date to be other than today, set this
         // publishDate:  "2009-08-06",
@@ -26,7 +26,7 @@
         // previousMaturity:  "WD",
 
         // if there a publicly available Editor's Draft, this is the link
-        edDraftURI: "https://w3c-ccg.github.io/lds-ed25519-2020/",
+        edDraftURI: "{{ page.edDraftURI }}",
 
         // if this is a LCWD, uncomment and set the end of its review period
         // lcEnd: "2009-08-05",
@@ -37,33 +37,37 @@
 
         // editors, add as many as you like
         // only "name" is required
-        editors: [
-          {
-            name: "Orie Steele",
-            url: "https://transmute.industries",
-            company: "Transmute",
-            companyURL: "https://transmute.industries",
-          },
-        ],
+        editors: JSON.parse(`
+        {{ page.editors }}
+        `),
+    
 
         // extend the bibliography entries
         //localBiblio: webpayments.localBiblio,
 
-        wg: "Credentials Community Group",
+        wg: JSON.parse(`
+        {{ page.workingGroup }}
+        `).name,
         // URI of the public WG page
-        wgURI: "https://www.w3.org/community/credentials/",
+        wgURI: JSON.parse(`
+        {{ page.workingGroup }}
+        `).url,
         // name (with the @w3c.org) of the public mailing to which comments are due
-        wgPublicList: "public-credentials",
+        wgPublicList: JSON.parse(`
+        {{ page.workingGroup }}
+        `).list,
         // URI of the patent status for this WG, for Rec-track documents
         // !!!! IMPORTANT !!!!
         // This is important for Rec-track documents, do not copy a patent URI from a random
         // document unless you know what you're doing. If in doubt ask your friendly neighbourhood
         // Team Contact.
-        wgPatentURI: "https://www.w3.org/community/about/agreements/cla/",
+        wgPatentURI: JSON.parse(`
+        {{ page.workingGroup }}
+        `).patentUri,
 
         otherLinks: [
           {
-            key: "Source control",
+            key: "Source Control",
             data: [
               {
                 value: "{{ page.repository }}",

@@ -1,9 +1,0 @@
-{
-  "RDF-DATASET-NORMALIZATION": {
-    "title": "RDF Dataset Normalization 1.0",
-    "href": "http://json-ld.github.io/normalization/spec/",
-    "authors": ["David Longley", "Manu Sporny"],
-    "status": "CGDRAFT",
-    "publisher": "JSON-LD Community Group"
-  }
-}

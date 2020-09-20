@@ -2,7 +2,24 @@
 layout: respec
 title: Respec FTW
 specStatus: CG-DRAFT
-shortName: lds-ed25519-2020
+shortName: did-ns-test
+edDraftURI: "https://ns.did.ai/ldp"
+workingGroup: >
+  {
+    "name": "Credentials Community Group",
+    "url": "https://www.w3.org/community/credentials/",
+    "list": "public-credentials",
+    "patentUri": "https://www.w3.org/community/about/agreements/cla/"
+  }
+editors: >
+  [
+    {
+      "name": "Orie Steele",
+      "url": "https://transmute.industries",
+      "company": "Transmute",
+      "companyURL": "https://transmute.industries"
+    }
+  ]
 repository: https://github.com/transmute-industries/ns.did.ai
 issueTracker: https://github.com/transmute-industries/ns.did.ai/issues
 bibliography: >
