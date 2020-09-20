@@ -1,4 +1,8 @@
-<link
-  rel="stylesheet"
-  href="/assets/css/style.css?v=6c9a4e1eeddb15bdd3b3c30d86662deb50520f7e"
-/>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {% seo %} <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append:
+  site.github.build_revision | relative_url }}">
+</head>
