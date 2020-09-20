@@ -2,6 +2,21 @@
 layout: respec
 ---
 
+<section id="abstract">
+  <p>
+    This specification describes an Ed25519 Signature Suite created in 2020
+    for the Linked Data Proof specification. The Signature Suite utilizes
+    Ed25519 EdDSA signatures and multibase.
+  </p>
+</section>
+
+<section id="sotd">
+  <p>
+    This is an experimental specification and is undergoing regular
+    revisions. It is not fit for production deployment.
+  </p>
+</section>
+
 ## test markdown
 
 #### Example:
