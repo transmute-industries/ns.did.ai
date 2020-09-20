@@ -3,6 +3,12 @@ description: GitHub Documentation
 
 url: "https://ns.did.ai"
 
+defaults:
+  - scope:
+      path: "did/**/*.pdf"
+    values:
+      sitemap: true
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
