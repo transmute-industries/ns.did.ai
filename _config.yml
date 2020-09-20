@@ -3,6 +3,15 @@ description: GitHub Documentation
 
 url: "https://ns.did.ai"
 
+github:
+  private: false
+  license:
+    name: Apache-2.0
+  source:
+    branch: "master"
+    path: "/"
+  repository_url: "https://github.com/transmute-industries/ns.did.ai"
+
 defaults:
   - scope:
       path: "did/**/*.*"
