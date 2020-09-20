@@ -1,3 +1,7 @@
+#### Decentralized Identifiers
+
+##### [View Source on GitHub](https://github.com/transmute-industries/ns.did.ai)
+
 <h4 id="publicKeyJwk"><a href="#publicKeyJwk">publicKeyJwk</a></h4>
 
 A secp256k1 public key in JWK format. A JSON Web Key (JWK) is a JavaScript Object Notation (JSON) data structure that represents a cryptographic key. Read [RFC7517](https://tools.ietf.org/html/rfc7517).

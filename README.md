@@ -1,6 +1,6 @@
-#### [View Source on GitHub](https://github.com/transmute-industries/ns.did.ai)
+##### [View Source on GitHub](https://github.com/transmute-industries/ns.did.ai)
 
-##### Decentralized Identifiers
+#### Decentralized Identifiers
 
 See the official documentation [w3c/did-core](https://github.com/w3c/did-core).
 
