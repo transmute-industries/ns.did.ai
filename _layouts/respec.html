@@ -3,11 +3,7 @@
   <head>
     <title>Ed25519 Signature 2020</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <!--
-      === NOTA BENE ===
-      For the three scripts below, if your spec resides on dev.w3 you can check them
-      out in the same tree and use relative links so that they'll work offline,
-     -->
+
     <script
       src="https://www.w3.org/Tools/respec/respec-w3c"
       class="remove"
@@ -95,7 +91,15 @@
         /*preProcess: [ webpayments.preProcess ],
         alternateFormats: [ {uri: "diff-20111214.html", label: "diff to previous version"} ],
         */
-        localBiblio: {},
+        localBiblio: {
+          "RDF-DATASET-NORMALIZATION": {
+            title: "RDF Dataset Normalization 1.0",
+            href: "http://json-ld.github.io/normalization/spec/",
+            authors: ["David Longley", "Manu Sporny"],
+            status: "CGDRAFT",
+            publisher: "JSON-LD Community Group",
+          },
+        },
       };
     </script>
   </head>
