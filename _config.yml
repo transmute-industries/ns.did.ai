@@ -1,2 +1,6 @@
-title: ns.did.ai
+title: Decentralized Namespace
 description: GitHub Documentation
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
