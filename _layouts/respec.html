@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
-    <title>Ed25519 Signature 2020</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
+    <title>{{ page.title or site.title }}</title>
+
+   
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    {% seo %}
     <script
       src="https://www.w3.org/Tools/respec/respec-w3c"
       class="remove"
