@@ -1,5 +1,3 @@
-#### Decentralized Identifiers
-
 ##### [View Source on GitHub](https://github.com/transmute-industries/ns.did.ai)
 
 ##### v1

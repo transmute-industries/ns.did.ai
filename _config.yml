@@ -13,7 +13,11 @@ github:
 
 defaults:
   - scope:
-      path: "did/**/*.*"
+      path: "README.md"
+    values:
+      sitemap: true
+  - scope:
+      path: "transmute/**/*.*"
     values:
       sitemap: true
 
