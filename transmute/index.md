@@ -2,6 +2,8 @@
 
 ##### v1
 
+`https://ns.did.ai/transmute/v1`
+
 This context enables pragmatic extension of [Decentralized Identifiers](https://www.w3.org/ns/did/v1) to support [Credentials v1](https://www.w3.org/2018/credentials/v1) and [Security v2](https://w3id.org/security/v2).
 
 We have dropped rarely used or unsafe terms.
