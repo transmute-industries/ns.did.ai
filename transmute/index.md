@@ -23,9 +23,9 @@ We have dropped rarely used or unsafe terms.
       "type": "JsonWebKey2020",
       "controller": "did:example:123",
       "publicKeyJwk": {
+        "kty": "OKP",
         "crv": "Ed25519",
-        "x": "0Q0O6Dje52qY2lhB2WtXw2JxcHk2tfTiie6Pza2OKBA",
-        "kty": "OKP"
+        "x": "0Q0O6Dje52qY2lhB2WtXw2JxcHk2tfTiie6Pza2OKBA"
       }
     }
   ]
