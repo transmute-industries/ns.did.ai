@@ -6,6 +6,9 @@
     "https://www.w3.org/ns/did/v1",
     {
       "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyBase58": {
+        "@id": "https://w3id.org/security#publicKeyBase58"
+      },
       "JsonWebKey2020": "https://w3id.org/security#JsonWebKey2020",
       "publicKeyJwk": {
         "@id": "https://w3id.org/security#publicKeyJwk",
