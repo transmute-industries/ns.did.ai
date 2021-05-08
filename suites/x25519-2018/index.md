@@ -6,7 +6,7 @@
 
 Support for [X25519 2018](https://github.com/w3c-ccg/lds-ed25519-2018)
 
-##### Verifying using JSON Web Key
+##### Verifying
 
 ```jsonc
 {
