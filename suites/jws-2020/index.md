@@ -2,6 +2,8 @@
 
 #### v1
 
+[`https://w3id.org/security/suites/jws-2020/v1`](https://w3id.org/security/suites/jws-2020/v1)
+
 [`https://ns.did.ai/suites/jws-2020/v1`](https://ns.did.ai/suites/jws-2020/v1)
 
 Support for [JSON Web Signature 2020](https://github.com/w3c-ccg/lds-jws2020)
@@ -12,7 +14,7 @@ Support for [JSON Web Signature 2020](https://github.com/w3c-ccg/lds-jws2020)
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://ns.did.ai/suites/jws-2020/v1"
+    "https://w3id.org/security/suites/jws-2020/v1"
   ],
   "id": "did:example:123",
   "verificationMethod": [

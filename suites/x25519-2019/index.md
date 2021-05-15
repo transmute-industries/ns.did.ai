@@ -2,9 +2,11 @@
 
 #### v1
 
-[`https://ns.did.ai/suites/x25519-2018/v1`](https://ns.did.ai/suites/x25519-2018/v1)
+[`https://w3id.org/security/suites/x25519-2019/v1`](https://w3id.org/security/suites/x25519-2019/v1)
 
-Support for [X25519 2018](https://github.com/w3c-ccg/lds-ed25519-2018)
+[`https://ns.did.ai/suites/x25519-2019/v1`](https://ns.did.ai/suites/x25519-2019/v1)
+
+Support for [X25519 2019](https://github.com/w3c-ccg/lds-ed25519-2018)
 
 ##### Verifying
 
@@ -12,7 +14,7 @@ Support for [X25519 2018](https://github.com/w3c-ccg/lds-ed25519-2018)
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://ns.did.ai/suites/x25519-2018/v1"
+    "https://w3id.org/security/suites/x25519-2019/v1"
   ],
   "id": "did:example:123",
   "verificationMethod": [

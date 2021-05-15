@@ -2,6 +2,8 @@
 
 #### v1
 
+[`https://w3id.org/security/suites/bls12381-2020/v1`](https://w3id.org/security/suites/bls12381-2020/v1)
+
 [`https://ns.did.ai/suites/bls12381-2020/v1`](https://ns.did.ai/suites/bls12381-2020/v1)
 
 Support for [BBS+ 2020](https://github.com/w3c-ccg/ldp-bbs2020)
@@ -12,7 +14,7 @@ Support for [BBS+ 2020](https://github.com/w3c-ccg/ldp-bbs2020)
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://ns.did.ai/suites/bls12381-2020/v1"
+    "https://w3id.org/security/suites/bls12381-2020/v1"
   ],
   "id": "did:example:123",
   "verificationMethod": [

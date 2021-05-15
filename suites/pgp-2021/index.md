@@ -2,6 +2,8 @@
 
 #### v1
 
+[`https://w3id.org/security/suites/pgp-2021/v1`](https://w3id.org/security/suites/pgp-2021/v1)
+
 [`https://ns.did.ai/suites/pgp-2021/v1`](https://ns.did.ai/suites/pgp-2021/v1)
 
 Support for [PGP 2021](https://github.com/OR13/lds-pgp2021)
@@ -12,7 +14,7 @@ Support for [PGP 2021](https://github.com/OR13/lds-pgp2021)
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://ns.did.ai/suites/pgp-2021/v1"
+    "https://w3id.org/security/suites/pgp-2021/v1"
   ],
 
   "id": "did:example:123",

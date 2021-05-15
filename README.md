@@ -32,10 +32,10 @@ Secp256k1 2020 Linked Data Security Suite.
 
 Secp256k1 2020 Linked Data Security Suite.
 
+### [x25519-2019](https://ns.did.ai/suites/x25519-2019/)
+
+X25519 2019 Linked Data Security Suite.
+
 ### [ed25519-2018](https://ns.did.ai/suites/ed25519-2018/)
 
-Ed25519 2020 Linked Data Security Suite.
-
-### [x25519-2018](https://ns.did.ai/suites/x25519-2018/)
-
-X25519 2020 Linked Data Security Suite.
+Ed25519 2018 Linked Data Security Suite.

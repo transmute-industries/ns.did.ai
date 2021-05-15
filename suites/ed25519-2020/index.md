@@ -2,6 +2,8 @@
 
 #### v1
 
+[`https://w3id.org/security/suites/ed25519-2020/v1`](https://w3id.org/security/suites/ed25519-2020/v1)
+
 [`https://ns.did.ai/suites/ed25519-2020/v1`](https://ns.did.ai/suites/ed25519-2020/v1)
 
 Support for [Ed25519 2020](https://github.com/w3c-ccg/lds-ed25519-2020)
@@ -12,7 +14,7 @@ Support for [Ed25519 2020](https://github.com/w3c-ccg/lds-ed25519-2020)
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://ns.did.ai/suites/ed25519-2020/v1"
+    "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
 
   "id": "did:example:123",

@@ -2,6 +2,8 @@
 
 #### v1
 
+[`https://w3id.org/security/suites/secp256k1-2019/v1`](https://w3id.org/security/suites/secp256k1-2019/v1)
+
 [`https://ns.did.ai/suites/secp256k1-2019/v1`](https://ns.did.ai/suites/secp256k1-2019/v1)
 
 Support for [ecdsa secp256k1 2019](https://github.com/w3c-ccg/lds-ecdsa-secp256k1-2019)
@@ -12,7 +14,7 @@ Support for [ecdsa secp256k1 2019](https://github.com/w3c-ccg/lds-ecdsa-secp256k
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://ns.did.ai/suites/secp256k1-2019/v1"
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
   ],
   "id": "did:example:123",
   "verificationMethod": [
