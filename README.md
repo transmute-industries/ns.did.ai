@@ -4,9 +4,9 @@
 
 Transmute's extensions to [Decentralized Identifiers](https://www.w3.org/ns/did) for interoperability with [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/).
 
-### [multibase-2021](https://ns.did.ai/suites/multibase-2021/)
+### [multikey-2021](https://ns.did.ai/suites/multikey-2021/)
 
-Multibase 2021 Linked Data Security Suite.
+Multikey 2021 Linked Data Security Suite.
 
 ### [pgp-2021](https://ns.did.ai/suites/pgp-2021/)
 

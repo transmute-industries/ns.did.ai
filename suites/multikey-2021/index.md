@@ -2,9 +2,9 @@
 
 #### v1
 
-[`https://w3id.org/security/suites/multibase-2021/v1`](https://w3id.org/security/suites/multibase-2021/v1)
+[`https://w3id.org/security/suites/multikey-2021/v1`](https://w3id.org/security/suites/multikey-2021/v1)
 
-[`https://ns.did.ai/suites/multibase-2021/v1`](https://ns.did.ai/suites/multibase-2021/v1)
+[`https://ns.did.ai/suites/multikey-2021/v1`](https://ns.did.ai/suites/multikey-2021/v1)
 
 ##### Verifying using JSON Web Key
 
@@ -12,7 +12,7 @@
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/multibase-2021/v1"
+    "https://w3id.org/security/suites/multikey-2021/v1"
   ],
   "id": "did:example:123",
   "verificationMethod": [
